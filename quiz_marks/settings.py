@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-y4lbo)8(k63(1%96q*t9n5l=wa%rv6v-&(l6f4+az_t5*9pt(2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -74,6 +74,7 @@ WSGI_APPLICATION = 'quiz_marks.wsgi.application'
 
 
 # Database
+
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
 DATABASES = {
