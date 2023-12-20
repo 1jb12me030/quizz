@@ -30,7 +30,7 @@ class Quizzes(models.Model):
 
     def __str__(self):
         return self.title
-
+#here updated is parent class
 class Updated(models.Model):
 
     date_updated = models.DateTimeField(
@@ -74,7 +74,7 @@ class Question(Updated):
     def __str__(self):
         return self.title
 
-    
+ #this class is for Answer and updated is inherited here   
 
 class Answer(Updated):
 
